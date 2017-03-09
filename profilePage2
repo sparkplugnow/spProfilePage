@@ -7,6 +7,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+   integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <style>
 
     .navbar {
@@ -64,16 +66,13 @@
 
 <div class="container-fluid lg-3 text-center">
   <h3>Follow Me on social-media</h3><br>
-  <div class="col-xs-8 pull-right text-center">
-    <div class="social">
-        <ul>
-            <li><a href="#"><i class="fa fa-lg fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fa fa-lg fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa fa-lg fa-google-plus"></i></a></li>
-            <li><a href="#"><i class="fa fa-lg fa-github"></i></a></li>
+    <div class="container-fluid list-inline-item">
 
-        </ul>
-    </div>
+            <a href="#"><i class="fa fa-lg fa-facebook-square"></i></a>
+            <a href="#"><i class="fa fa-lg fa-twitter-square"></i></a>
+            <a href="#"><i class="fa fa-lg fa-google-plus-square"></i></a>
+            <a href="#"><i class="fa fa-lg fa-github-square"></i></a>
+
   </div>
 </div>
 <div>
