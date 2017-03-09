@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Profile Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+
+    .navbar {
+      margin-bottom: 2;
+      border-radius: 2;
+    }
+
+
+    footer {
+      background-color: #8B008B;
+      padding: 50px;
+    }
+    p {
+      font-size:14px;
+      font-style:italic;
+      font-family:sans-serif monospace;
+
+     }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid" style="color:#f0f000">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Portfolio</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Project</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron">
+  <div class="container text-left xs-3">
+    <img src="/home/shanu/Document/sparkProfilePage/20170302_174621.jpg" alt="">
+    <h3>My Profile</h3>
+    <p><span style="font-size:30px">Tech Enthutiast:</span>I code,design,develop <br>
+    and gather all infomation on technology</p>
+  </div>
+</div>
+
+<div class="container-fluid lg-3 text-center">
+  <h3>Follow Me on social-media</h3><br>
+  <div class="col-xs-8 pull-right text-center">
+    <div class="social">
+        <ul>
+            <li><a href="#"><i class="fa fa-lg fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-lg fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-lg fa-google-plus"></i></a></li>
+            <li><a href="#"><i class="fa fa-lg fa-github"></i></a></li>
+
+        </ul>
+    </div>
+  </div>
+</div>
+<div>
+<footer class="container-fluid text-center">
+  <p>Designed by Shanu Thobs</p>
+
+</footer>
+</div>
+</body>
+</html>
